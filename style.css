@@ -1,0 +1,60 @@
+body{
+    background: rgb(223, 94, 94);
+    margin: 0;
+    padding: 20px;
+
+}
+header{
+    background: rgba(241, 228, 228, 0.562);
+    width: 100%;
+    height: 100px;
+}
+nav{
+    background: rosybrown;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 1px 10px 10px rgb(240, 245, 240);
+    margin: 10px;
+}
+main{
+    background: royalblue;
+    width: 100%;
+    height: 800px;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+
+}
+.main-section{
+    background: rgb(165, 235, 240);
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    /* overflow: auto; */
+
+}
+.main-section:hover{
+    box-shadow:1px 1px 10px 10px crimson;
+}
+aside{
+    background: rgba(248, 246, 246, 0.37);
+    width: 800px;
+    height: 150px;
+}
+footer{
+    background: black;
+    color: blanchedalmond;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    box-shadow: 1px 1px 10px 10px blanchedalmond;
+}
+
+.hairwomen{
+    width: 100%;
+    height: 100%;
+}
